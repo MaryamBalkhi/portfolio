@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARYAMBALKHI</title>
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="about.css">
+    <link href="img/Favicon.png" rel="icon">
+    
+        <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+          <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+
+    <!--HEADER-->
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo"><img src="img/web-logo.png" alt="logo"></a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="index.html">HOME</a></li>
+               <!-- <li><a href="#">PORTOFOLIO</a></li> --> 
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        navbarToggle.addEventListener('click' , () => {
+            navbarToggle.classList.toggle('active');
+            navbarMenu.classList.toggle('active');
+        })
+    </script>
+
+    <script>
+        window.addEventListener("scroll", () => {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 10) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
+
+    </script>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid py-5 bg-secondary" style="background-color: black !important;">
+        <div class="container py-5">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="title mx-5 px-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="title-center">
+                            <h5>Got a question?</h5>
+                            <h1>Contact me</h1>
+                        </div>
+                        
+                        <p>
+                            For inquiries, collaborations, or more information, please get in touch using the form below. I’ll respond promptly.
+                        </p>
+                    
+                    <div id="contact-form-wrapper">
+  <form id="contact-form" action="contact.php" method="POST">
+
+    <input
+      type="text"
+      id="contact-name"
+      class="contact-input"
+      name="name"
+      placeholder="Your name"
+      required
+    >
+
+    <input
+      type="email"
+      id="contact-email"
+      class="contact-input"
+      name="email"
+      placeholder="Your email"
+      required
+    >
+
+    <textarea
+      id="contact-message"
+      class="contact-input"
+      name="message"
+      placeholder="Your message"
+      required
+    ></textarea>
+
+    <button type="submit" id="contact-submit">
+      Send Message
+    </button>
+
+  </form>
+
+</div>
+                    
+                    
+                    </div>
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+  
+   <!--Footer-->
+   <footer class="footer" style="position: absolute; right: 0; left: 0; margin-top: 80px;">
+  	 <div class="container-footer">
+  	 	<div class="footer-row">
+  	 		<div class="footer-col">
+  	 			<h4>Information</h4>
+  	 			<ul>
+  	 				<li><a href="about.html">about me</a></li>
+  	 				<li><a href="privacy-and-policy.html">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Explore</h4>
+  	 			<ul>
+  	 				<li><a href="faq.html">FAQ</a></li>
+  	 				<!-- <li><a href="#">plans</a></li> -->
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow me</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://github.com/MaryamBalkhi"><i class="fab fa-github"></i></a>
+  	 				<a href="https://x.com/MaryamBalkhi"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://instagram.com/maryambalkhi_"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/in/maryam-hanif-balkhi"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+  <!--end of footer-->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary border-2 btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
