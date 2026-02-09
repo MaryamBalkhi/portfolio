@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARYAMBALKHI</title>
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="about.css">
+    <link href="img/Favicon.png" rel="icon">
+    
+        <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+          <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+
+    <!--HEADER-->
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo"><img src="img/web-logo.png" alt="logo"></a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="index.html" >HOME</a></li>
+               <!-- <li><a href="#">PORTOFOLIO</a></li> --> 
+                <li><a href="about.html" class="active">ABOUT</a></li>
+                <li><a href="contact.html" >CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        navbarToggle.addEventListener('click' , () => {
+            navbarToggle.classList.toggle('active');
+            navbarMenu.classList.toggle('active');
+        })
+    </script>
+
+    <script>
+        window.addEventListener("scroll", () => {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 10) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
+
+    </script>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid py-5 bg-secondary" style="background-color: black !important;">
+        <div class="container py-5">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="title mx-5 px-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="title-center">
+                            <h5>Who am I?</h5>
+                            <h1>Chasing Many Dreams</h1>
+                        </div>
+                    </div>
+                    <p class="fs-5 mb-5 wow fadeInUp" data-wow-delay="0.2s">Graduate Medical Doctor with over two years of clinical experience, currently working at Milat Hospital in ICU and CCU since August 2025. Previously, I trained at FMIC from January 2023 to February 2024, and in the Emergency Hospital from January 2024 to August 2024, gaining hands-on experience in emergency care, ICU management, and assisting in surgeries, including angiography and stent procedures. I aim to specialize in Internal Medicine, Cardiology, and Emergency Medicine.<br><br>
+
+In addition to medicine, I am a self-taught cybersecurity enthusiast, enrolled in the EC-Council AI Ethical Hacking course and preparing for international certifications. I also have strong experience in full-stack development, applying my technical skills to real-world projects.<br><br>
+
+STEM is a major passion of mine. I enjoy building robots, drones, and other space-related machines to deepen my practical knowledge. I continue to self-learn in mechatronics, space engineering, and related fields, aiming to pursue higher studies in the future where I can innovate and contribute to society.<br><br>
+I also aspire to study International Relations with a focus on diplomacy, inspired by Afghanistan’s history and world affairs. I am driven to be a voice for those in need and aim to contribute to leading organizations, merging my medical, STEM, and cybersecurity background to make a meaningful impact and become a model of excellence. I hope to one day pursue opportunities with the EU or NATO.</p>
+                    
+
+
+    <div class="part-one">
+        <div class="maryam-img"></div>
+        <div class="professional-summary"></div>
+    </div>
+    <div class="part-two">
+        <div class="maryam-education"></div>
+        <div class="certifications-participations">
+            <div class="maryam-certificates"></div>
+            <div class="maryam-participations"></div>
+        </div>
+        <div class="skills-languages"></div>
+    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+        <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>Certificates</h5>
+                        <h1>All of my achievements</h1>
+                    </div>
+                </div>
+            </div>
+
+
+     <section class="testimonial">
+
+         <div class="testimonial__swiper container swiper">
+            <div class="swiper-wrapper">
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img1.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">Cybersecurity</h3>
+                     <p class="testimonial__description">
+                        <b>Google Cybersecurity Professional Certificate</b><br>
+                         Completed training in cybersecurity fundamentals, threat detection, incident response, and use of tools like Linux, SQL, and SIEM systems.
+                     </p>
+                  </div>
+               </article>
+   
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img2.png" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">Cybs Specialist</h3>
+                     <p class="testimonial__description">
+                        <b>IBM and ISC2 Cybersecurity Specialist Professional Certificate</b><br>
+                         Completed training in security principles, incident response, access control, and network/security operations, with hands-on projects.
+                     </p>
+                  </div>
+               </article>
+   
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img3.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">UI/UX</h3>
+                     <p class="testimonial__description">
+                        <b>IBM UI/UX Designer Professional Certificate</b><br>
+                         Completed training in user-centered design, wireframing/prototyping, accessibility, and usability testing using Figma, Adobe XD, and Miro.
+                     </p>
+                  </div>
+               </article>
+   
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img4.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">UX Design</h3>
+                     <p class="testimonial__description">
+                        <b>Microsoft UX Design Professional Certificate</b><br>
+                         Gained foundational UX/UI skills in research, wireframing, prototyping, mockups, and accessibility using Figma and frameworks.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img5.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">UX Design</h3>
+                     <p class="testimonial__description">
+                        <b>Google UX Design Professional Certificate</b><br>
+                         Trained in end-to-end UX design: user research, wireframing, prototyping, usability testing, and responsive design using Figma and Adobe XD.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img6.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">Cybs Analyist</h3>
+                     <p class="testimonial__description">
+                        <b>IBM Cybersecurity Analyst Professional Certificate</b><br>
+                         Gained hands-on experience in network security, threat analysis, incident response, SIEM tools, and security monitoring through real-world case studies.
+                     </p>
+                  </div>
+               </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev"><i class="ri-arrow-left-long-line"></i></div>
+            <div class="swiper-button-next"><i class="ri-arrow-right-long-line"></i></div>
+         </div>
+      </section>
+      
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container-fluid py-5 bg-secondary " style="background-color: black !important; margin-bottom: 120px;">
+        <div class="container py-5">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="title mx-5 px-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="title-center">
+                            <h5>about me</h5>
+                            <h1>Resume</h1>
+                        </div>
+                    </div>
+                    <div class="fs-5 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+
+
+                        <h1>MARYAM HANIF BALKHI</h1>
+                        <h5>MEDICAL DOCTOR<br>
+                            SELF-TAUGHT CYBERSECURITY ANALYST & ROBOTICIST<br>
+                            HUMAN RIGHT ADVOCATE
+                        </h5>
+
+                        <h1 style="padding-top: 50px;">EDUCATION</h1>
+                        <h5 style=" padding-top: 50px;">SCHOOL</h5>
+                        <div>
+                            
+                                <h5 style="color:white">Primary School | Kabul, Afghanistan</h5>
+                            <h6>2007 - 2011</h6>
+                            <p> studied at Neswan Rabia School</p>
+
+                           <h5 style="color:white">Middle school | Mushrif, Kuwait</h5>
+                            <h6>2012 - 2014</h6> 
+                            <p>studied at Mushrif Middle School</p>
+
+
+                            <h5 style="color:white">
+                            High School | Kabul, Afghanistan</h5>
+                            <h6>2015 - 2017</h6>
+                            <p>studied at Barakat Afghan Turk
+                            International High School<br> <span style="font-weight: lighter; font-style: italic;">(Currently known as Afghan-Turk Maarif
+                            International School)</span></p>
+
+                        </div>
+                    
+
+                        <h5 style="margin-top: 50px; " >UNIVERSITY</h5>
+                        <div>
+                            
+                                <h5 style="color:white">Kabul Medical University <span style="font-weight: lighter; font-style: italic;"> (MD)</span> | Kabul, Afghanistan</h5>
+                            <h6>2018 - 2024</h6>
+
+                            <!--
+                           <h5 style="color:white">Arizona State University <span style="font-weight: lighter; font-style: italic;"> (Software Engineering
+BS.)</span> | Arizona State, United State of America</h5>
+                            <h6>2026 - Present</h6>                  
+ 
+                            -->
+                           
+                        </div>
+
+
+                        <h1 style="padding-top: 50px;">EXPERIENCES</h1>
+                        <div>
+                            
+                                <h5 style="color:white">FMIC | Kabul, Afghanistan</h5>
+                            <h6>Jan 2023 - Feb 2024</h6>
+                            <p> Trainee in Emergency and ICU department</p>
+
+
+                           <h5 style="color:white">Emergency Hospital | Kabul, Afghanistan</h5>
+                            <h6>Jan 2024 - Aug 2024</h6>
+                            <p> Trainee in Emergency department</p> 
+
+
+                            <h5 style="color:white">
+                            UN-HABITAT | Kabul, Afghanistan</h5>
+                            <h6>Sep 2025 - Nov 2025</h6>
+                            <p> Volunteer in the Design Support for
+                                Interactive Website – Full-Stack Development (Urban October 2025)</p>
+
+                            
+                            <h5 style="color:white">Dynomark | Kabul, Afghanistan</h5>
+                            <h6>Nov 2025 - Present</h6>
+                            <p> Website Developer and Administrator</p>
+
+
+
+                            <h5 style="color:white">Milat Hospital | Kabul, Afghanistan</h5>
+                            <h6>Aug 2025 - present</h6>
+                            <p> Trainee in ICU and CCU department</p> 
+
+
+
+
+
+
+                        </div>
+                    
+                        <h1 style="padding-top: 50px;">SKILLS</h1>
+                        <!-- Row 2: Skills & Languages -->
+   
+                        <div style="padding-bottom: 100px;">
+                            <h5>MEDICAL SKILLS</h5>
+                            <p>
+            Advanced cardiac monitoring & ECG interpretation<br>
+            Hemodynamic monitoring & vasoactive drug administration<br>
+            ACLS/BLS & cardiac arrest management<br>
+            Emergency triage & rapid patient assessment<br>
+            Trauma & acute medical emergency management<br>
+            Central & arterial line insertion/care<br>
+            Sepsis recognition & critical care management<br>
+            Multidisciplinary teamwork & rapid decision-making
+                            </p>
+
+
+                            <h5>STEM SKILLS</h5>
+                            <p>
+            Cybersecurity Analyst<br>
+            Incident Response<br>
+            Desktop Support & Troubleshooting<br>
+            Hardware & Software Configuration<br>
+            Networking Fundamentals<br>
+           Scripting (PowerShell, Bash)<br>
+            UX & UI Design (Figma, Adobe XD)<br>
+            Programming (HTML, CSS, JS, Python, PHP, C)<br>
+            Frameworks (React.js, Angular.js)<br>
+            Arduino & Embedded C/C++/Python<br>
+            Robotics & Automation Systems<br>
+            IoT & Wireless Systems
+                            </p>
+
+
+                            <h5>IR SKILLS</h5>
+                            <p>
+            Human Rights Activist<br>
+            Advocacy & Campaigning<br>
+            Research & Policy Analysis<br>
+            Legal & Ethical Knowledge<br>
+            Project Management<br>
+            Partnership Coordination<br>
+            Sustainable Development & SDGs<br>
+            Cross-Cultural Communication<br>
+            Leadership & Strategic Thinking<br>
+                        </p>
+
+
+                        <h5>LANGUAGE PROFICIENCY</h5>
+                            <p>
+            Dari/ Persian (Native)<br>
+            Arabic (C1)<br>
+            English (B2)<br>
+            Turkish (B2)<br>
+            German (B2)<br>
+                        </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+                    <!--
+                    
+            <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>To know about me more</h5>
+                        <h1>get in touch with me!</h1>
+
+                        <div>
+                        </div>
+                    </div>
+                        
+                        <div>
+                    <h6><a href="#" style="color: white;">LinkedIn</a></h6>    
+                    <h6><a href="#" style="color: white;">Instagram</a></h6>
+                    <h6><a href="#" style="color: white;">GitHub</a></h6>
+                    <h6><a href="#" style="color: white;">X</a></h6>
+                </div>
+                    
+                    -->
+                    
+        </div>
+    </div>
+    
+   
+   
+   <!--Footer-->
+   <footer class="footer" style="position: absolute; right: 0; left: 0; margin-top: 80px;">
+  	 <div class="container-footer">
+  	 	<div class="footer-row">
+  	 		<div class="footer-col">
+  	 			<h4>Information</h4>
+  	 			<ul>
+  	 				<li><a href="about.html">about me</a></li>
+  	 				<li><a href="privacy-and-policy.html">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Explore</h4>
+  	 			<ul>
+  	 				<li><a href="faq.html">FAQ</a></li>
+  	 				<!-- <li><a href="#">plans</a></li> -->
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow me</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://github.com/MaryamBalkhi"><i class="fab fa-github"></i></a>
+  	 				<a href="https://x.com/MaryamBalkhi"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://instagram.com/maryambalkhi_"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/in/maryam-hanif-balkhi"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+  <!--end of footer-->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary border-2 btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>

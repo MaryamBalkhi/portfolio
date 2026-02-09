@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARYAMBALKHI</title>
+
+    <link rel="stylesheet" href="general.css">
+    <link href="img/Favicon.png" rel="icon">
+    
+        <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+          <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+
+    <!--HEADER-->
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo"><img src="img/web-logo.png" alt="logo"></a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="active">HOME</a></li>
+               <!-- <li><a href="#">PORTOFOLIO</a></li> --> 
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        navbarToggle.addEventListener('click' , () => {
+            navbarToggle.classList.toggle('active');
+            navbarMenu.classList.toggle('active');
+        })
+    </script>
+
+    <script>
+        window.addEventListener("scroll", () => {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 10) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
+
+    </script>
+
+    <!--SECTION 1-->
+
+<section class="section-1" style="background-color: black !important;">
+    <div class="section-1-content">
+        <h1>MARYAM BALKHI</h1>
+        <div>
+            <p>Welcome to my creative space</p>
+            <p>A collection of my journey, work, and achievements</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid py-5 bg-secondary" style="background-color: black !important;">
+        <div class="container py-5">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="title mx-5 px-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="title-center">
+                            <h5>Who am I?</h5>
+                            <h1>Chasing Many Dreams</h1>
+                        </div>
+                    </div>
+                    <p class="fs-5 mb-5 wow fadeInUp" data-wow-delay="0.2s">Graduate Medical Doctor with a self-taught background in cybersecurity, focusing on ethical hacking and completing international certifications in the field. Passionate about mechatronics, space engineering, and international relations, with a strong drive to achieve excellence across all these areas. </p>
+                    <div class="position-relative wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="about.html" style="color: white;" type="button" class="btn btn-primary py-3 px-4"
+                            style="margin-top: 7px;">About me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>Certificates</h5>
+                        <h1>My achievements</h1>
+                    </div>
+                </div>
+            </div>
+
+
+    <!--
+    <div class="auto-scroll-text">
+
+    </div>
+            
+    -->
+    
+    
+
+    <section class="testimonial">
+
+         <div class="testimonial__swiper container swiper">
+            <div class="swiper-wrapper">
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img1.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">Cybersecurity</h3>
+                     <p class="testimonial__description">
+                        <b>Google Cybersecurity Professional Certificate</b><br>
+                         Completed training in cybersecurity fundamentals, threat detection, incident response, and use of tools like Linux, SQL, and SIEM systems.
+                     </p>
+                  </div>
+               </article>
+   
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img2.png" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">Cybs Specialist</h3>
+                     <p class="testimonial__description">
+                        <b>IBM and ISC2 Cybersecurity Specialist Professional Certificate</b><br>
+                         Completed training in security principles, incident response, access control, and network/security operations, with hands-on projects.
+                     </p>
+                  </div>
+               </article>
+   
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img3.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">UI/UX</h3>
+                     <p class="testimonial__description">
+                        <b>IBM UI/UX Designer Professional Certificate</b><br>
+                         Completed training in user-centered design, wireframing/prototyping, accessibility, and usability testing using Figma, Adobe XD, and Miro.
+                     </p>
+                  </div>
+               </article>
+   
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img4.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">UX Design</h3>
+                     <p class="testimonial__description">
+                        <b>Microsoft UX Design Professional Certificate</b><br>
+                         Gained foundational UX/UI skills in research, wireframing, prototyping, mockups, and accessibility using Figma and frameworks.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img5.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">UX Design</h3>
+                     <p class="testimonial__description">
+                        <b>Google UX Design Professional Certificate</b><br>
+                         Trained in end-to-end UX design: user research, wireframing, prototyping, usability testing, and responsive design using Figma and Adobe XD.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="testimonial__card swiper-slide">
+                  <img src="img/certificates/img6.jpg" alt="image" class="testimonial__img">
+                  <div class="testimonial__content">
+                     <h3 class="testimonial__name">Cybs Analyist</h3>
+                     <p class="testimonial__description">
+                        <b>IBM Cybersecurity Analyst Professional Certificate</b><br>
+                         Gained hands-on experience in network security, threat analysis, incident response, SIEM tools, and security monitoring through real-world case studies.
+                     </p>
+                  </div>
+               </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev"><i class="ri-arrow-left-long-line"></i></div>
+            <div class="swiper-button-next"><i class="ri-arrow-right-long-line"></i></div>
+         </div>
+      </section>
+      
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>PARTICIPATES</h5>
+                        <h1>EVENTS i'VE JOINED</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item service-item-left">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="img/events/womeninlead.png" alt="Image of The Event">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Inclusive Leadership for Women</h3>
+                            <p class="mb-4">I took part in a program organized by Women Support, titled “Inclusive Leadership for Women,” which brought together women aspiring to responsible and conscious leadership.</p>
+                           <!--
+                            <a class="btn btn-outline-primary border-2 px-4" href="#!">Read More <i
+                                    class="fa fa-arrow-right ms-1"></i></a>
+                           --> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <!-- 
+          
+          <div class="service-item service-item-left">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="#" alt="Image of The Event">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Coming soon</h3>
+                            <p class="mb-4">...</p>
+                            <a class="btn btn-outline-primary border-2 px-4" href="#!">Read More <i
+                                    class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item service-item-right">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5 order-md-1 text-md-end">
+                        <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="#" alt="Image of The Event">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Coming soon</h3>
+                            <p class="mb-4">...</p>
+                            <a class="btn btn-outline-primary border-2 px-4" href="#!">Read More <i
+                                    class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+          -->
+             <div class="service-item service-item-right">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5 order-md-1 text-md-end">
+                        <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="img/events/PICTURE-COMING-SOON.png" alt="Image of The Event">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">TRAINE IN CCU AND ICU</h3>
+                            <p class="mb-4">I have completed my training and have over two years of hands-on experience working in different hospitals in Afghanistan. My experience includes working in both the ICU and CCU, where I have developed strong critical care skills.</p>
+                           <!--
+                            <a class="btn btn-outline-primary border-2 px-4" href="#!">Read More <i
+                                    class="fa fa-arrow-right ms-1"></i></a>
+                           --> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    <!-- Service End -->
+
+        </div>
+    </div>
+
+    <!-- Banner Start fix ittttttt -->
+    <div class="breakout-3 bg-dark" style="background-color: black !important;">
+        <div class="container py-5">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="title mx-5 px-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="title-center">
+                            <h5>MY WORKSPACE</h5>
+                            <h1>PORTOFOLIO</h1>
+                        </div>
+                    </div>
+                    <p class="fs-5 mb-5 wow fadeInUp" data-wow-delay="0.2s"> I would like to share my works, showcasing my recent projects and the things I’ve built and worked on.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<section class="section-slides breakout-2" style="background-color: black;">
+  <div class="container">
+    <div class="card" style="background-color: rgb(35, 35, 35);">
+      <div class="card-inner" style="--clr:rgb(35, 35, 35);">
+        <div class="box">
+          <div class="imgBox">
+            <img src="img/portofolio-img-slides/img1.jpg" alt="Card's Image">
+          </div>
+          <div class="icon">
+            <a href="https://maryambalkhi.github.io/UN-HABITAT-PROJECT/" target="_blank" class="iconBox"> <span class="material-symbols-outlined">
+                <img src="img/right-up.png">
+              </span></a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>UN-HABITAT PROJECT</h3>
+        <p>A responsive website for UN-Habitat’s Urban October, built with React, HTML, CSS, and JS to deliver a clean, engaging user experience.</p>
+        <ul>
+          <li style="--clr-tag:#6bcbff;" class="branding">Frontend Develop</li>
+          <li style="--clr-tag:#0068a0;" class="packaging">UI/UX Design</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card" style="background-color: rgb(35, 35, 35);">
+      <div class="card-inner" style="--clr:rgb(35, 35, 35);">
+        <div class="box">
+          <div class="imgBox">
+            <img src="img/portofolio-img-slides/img2.jpg" alt="Card's Image">
+          </div>
+          <div class="icon">
+            <a href="https://maryambalkhi.github.io/Dynomark/" target="_blank" class="iconBox"> <span class="material-symbols-outlined">
+                <img src="img/right-up.png">
+              </span></a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>DYNOMARK</h3>
+        <p>A full-stack website built with React, PHP, and modern web technologies, delivering a smooth and dynamic user experience for Dynomark.</p>
+        <ul>
+          <li style="--clr-tag:#6bcbff;" class="branding">Frontend Develop</li>
+          <li style="--clr-tag:#0068a0;" class="packaging">Backend develop</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card" style="background-color: rgb(35, 35, 35);">
+      <div class="card-inner" style="--clr:rgb(35, 35, 35);">
+        <div class="box">
+          <div class="imgBox">
+            <img src="img/portofolio-img-slides/img5.png" alt="Card's Image">
+          </div>
+          <div class="icon">
+            <a href="#" class="iconBox"> <span class="material-symbols-outlined">
+                <img src="img/right-up.png">
+              </span></a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>POTTERY WEBSITE</h3>
+        <p>A full-stack pottery website built with React and PHP, featuring a clean design and dynamic content for a smooth user experience.</p>
+        <ul>
+          <li style="--clr-tag:#6bcbff;" class="branding">Frontend Develop</li>
+          <li style="--clr-tag:#0068a0;" class="packaging">Backend Develop</li>
+          <li style="--clr-tag:#000355;" class="marketing">UI/UX Design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Banner End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="breakout">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>Reviews</h5>
+                        <h1>Comments from others</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/comments/Stephanie-Loose-pic.jpg' alt=''>">
+                    <p class="fs-5">She was a great added value to the team, has great web design skills. Also, as a person, she's open and quick for learning, flexible, polite, and professional</p>
+                    <h5 class="text-uppercase">Stephanie Loose</h5>
+                    <span style="color: #00e1ff;">UN-HABITAT | Country Programme Manager</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/comments/user.png' alt=''>">
+                    <p class="fs-5">She've got an amazing talent for connecting every part of a project seamlessly — full-stack mastery at its best!</p>
+                    <h5 class="text-uppercase">Adam</h5>
+                    <span style="color: rgb(0, 225, 255);">Client</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/comments/user.png' alt=''>">
+                    <p class="fs-5">As she is talented in full-stack development, she brings both design and functionality together beautifully.</p>
+                    <h5 class="text-uppercase">A friend</h5>
+                    <span style="color: rgb(0, 225, 255);">Best friend</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+   <!--Footer-->
+   <footer class="footer" style="position: absolute; right: 0; left: 0; margin-top: 80px;">
+  	 <div class="container-footer">
+  	 	<div class="footer-row">
+  	 		<div class="footer-col">
+  	 			<h4>Information</h4>
+  	 			<ul>
+  	 				<li><a href="about.html">about me</a></li>
+  	 				<li><a href="privacy-and-policy.html">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Explore</h4>
+  	 			<ul>
+  	 				<li><a href="faq.html">FAQ</a></li>
+  	 				<!-- <li><a href="#">plans</a></li> -->
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow me</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://github.com/MaryamBalkhi"><i class="fab fa-github"></i></a>
+  	 				<a href="https://x.com/MaryamBalkhi"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://instagram.com/maryambalkhi_"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/in/maryam-hanif-balkhi"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+  <!--end of footer-->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary border-2 btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
